@@ -208,6 +208,14 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-100 via-white to-blue-50">
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+<div className="flex justify-end mb-4">
+          <button
+            onClick={() => window.location.href = "https://www.google.com"}
+            className="inline-flex items-center justify-center rounded-lg bg-red-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-red-700"
+          >
+            Google
+          </button>
+        </div>
         <header className="mb-8">
           <p className="text-sm font-semibold uppercase tracking-wider text-blue-600">
             Productivity
